@@ -63,6 +63,7 @@ public class MapMainView extends SurfaceView implements Callback {
         @Override
         public void run() {
             Log.i(TAG,"long pressed!");
+            Log.i(TAG,start.toString());
         }
     };
 
